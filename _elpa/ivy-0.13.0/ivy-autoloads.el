@@ -1,10 +1,22 @@
 ;;; ivy-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-(add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
+
+(add-to-list 'load-path (directory-file-name
+                         (or (file-name-directory #$) (car load-path))))
+
 
-;;;### (autoloads nil "ivy" "ivy.el" (24074 32342 506268 448000))
-;;; Generated autoloads from ivy.el
+;;;### (autoloads "actual autoloads are elsewhere" "colir" "../../../.emacs.d/elpa/ivy-0.13.0/colir.el"
+;;;;;;  (0 0 0 0))
+;;; Generated autoloads from ../../../.emacs.d/elpa/ivy-0.13.0/colir.el
+
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "colir" '("colir-")))
+
+;;;***
+
+;;;### (autoloads nil "ivy" "../../../.emacs.d/elpa/ivy-0.13.0/ivy.el"
+;;;;;;  "427c5fad71c4d1f8f8eb2fb2ab5c842c")
+;;; Generated autoloads from ../../../.emacs.d/elpa/ivy-0.13.0/ivy.el
 
 (autoload 'ivy-resume "ivy" "\
 Resume the last completion session.
@@ -134,11 +146,30 @@ Switch to one of the window views stored by `ivy-push-view'.
 Switch to another buffer in another window.
 
 \(fn)" t nil)
+
+;;;### (autoloads "actual autoloads are elsewhere" "ivy" "../../../.emacs.d/elpa/ivy-0.13.0/ivy.el"
+;;;;;;  (0 0 0 0))
+;;; Generated autoloads from ../../../.emacs.d/elpa/ivy-0.13.0/ivy.el
+
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ivy" '("ivy-" "with-ivy-window")))
+
+;;;***
 
 ;;;***
 
-;;;### (autoloads nil nil ("colir.el" "elpa.el" "ivy-overlay.el"
-;;;;;;  "ivy-pkg.el") (24074 32342 498269 25000))
+;;;### (autoloads "actual autoloads are elsewhere" "ivy-overlay"
+;;;;;;  "../../../.emacs.d/elpa/ivy-0.13.0/ivy-overlay.el" (0 0 0
+;;;;;;  0))
+;;; Generated autoloads from ../../../.emacs.d/elpa/ivy-0.13.0/ivy-overlay.el
+
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ivy-overlay" '("ivy-")))
+
+;;;***
+
+;;;### (autoloads nil nil ("../../../.emacs.d/elpa/ivy-0.13.0/colir.el"
+;;;;;;  "../../../.emacs.d/elpa/ivy-0.13.0/elpa.el" "../../../.emacs.d/elpa/ivy-0.13.0/ivy-autoloads.el"
+;;;;;;  "../../../.emacs.d/elpa/ivy-0.13.0/ivy-overlay.el" "../../../.emacs.d/elpa/ivy-0.13.0/ivy-pkg.el"
+;;;;;;  "../../../.emacs.d/elpa/ivy-0.13.0/ivy.el") (0 0 0 0))
 
 ;;;***
 
@@ -146,5 +177,6 @@ Switch to another buffer in another window.
 ;; version-control: never
 ;; no-byte-compile: t
 ;; no-update-autoloads: t
+;; coding: utf-8
 ;; End:
 ;;; ivy-autoloads.el ends here

@@ -6,8 +6,9 @@
                          (or (file-name-directory #$) (car load-path))))
 
 
-;;;### (autoloads nil "macrostep" "macrostep.el" (0 0 0 0))
-;;; Generated autoloads from macrostep.el
+;;;### (autoloads nil "macrostep" "../../../.emacs.d/elpa/macrostep-0.9/macrostep.el"
+;;;;;;  "c4c7cddea73734e122ad4f2d61e442e2")
+;;; Generated autoloads from ../../../.emacs.d/elpa/macrostep-0.9/macrostep.el
 
 (autoload 'macrostep-mode "macrostep" "\
 Minor mode for inline expansion of macros in Emacs Lisp source buffers.
@@ -35,13 +36,20 @@ buffer instead of inline in the current buffer.  Setting
 behaviors.
 
 \(fn &optional TOGGLE-SEPARATE-BUFFER)" t nil)
+
+;;;### (autoloads "actual autoloads are elsewhere" "macrostep" "../../../.emacs.d/elpa/macrostep-0.9/macrostep.el"
+;;;;;;  (0 0 0 0))
+;;; Generated autoloads from ../../../.emacs.d/elpa/macrostep-0.9/macrostep.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "macrostep" '("macrostep-")))
 
 ;;;***
+
+;;;***
 
-;;;### (autoloads nil "macrostep-c" "macrostep-c.el" (0 0 0 0))
-;;; Generated autoloads from macrostep-c.el
+;;;### (autoloads nil "macrostep-c" "../../../.emacs.d/elpa/macrostep-0.9/macrostep-c.el"
+;;;;;;  "69a7229b1a64aa4d3e8996b64c98d114")
+;;; Generated autoloads from ../../../.emacs.d/elpa/macrostep-0.9/macrostep-c.el
 
 (autoload 'macrostep-c-mode-hook "macrostep-c" "\
 
@@ -49,12 +57,22 @@ behaviors.
 \(fn)" nil nil)
 
 (add-hook 'c-mode-hook #'macrostep-c-mode-hook)
+
+;;;### (autoloads "actual autoloads are elsewhere" "macrostep-c"
+;;;;;;  "../../../.emacs.d/elpa/macrostep-0.9/macrostep-c.el" (0
+;;;;;;  0 0 0))
+;;; Generated autoloads from ../../../.emacs.d/elpa/macrostep-0.9/macrostep-c.el
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "macrostep-c" '("macrostep-c-")))
 
 ;;;***
+
+;;;***
 
-;;;### (autoloads nil nil ("macrostep-pkg.el") (0 0 0 0))
+;;;### (autoloads nil nil ("../../../.emacs.d/elpa/macrostep-0.9/macrostep-autoloads.el"
+;;;;;;  "../../../.emacs.d/elpa/macrostep-0.9/macrostep-c.el" "../../../.emacs.d/elpa/macrostep-0.9/macrostep-pkg.el"
+;;;;;;  "../../../.emacs.d/elpa/macrostep-0.9/macrostep.el") (0 0
+;;;;;;  0 0))
 
 ;;;***
 

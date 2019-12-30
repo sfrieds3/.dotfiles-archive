@@ -1,10 +1,22 @@
 ;;; ghub-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-(add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
+
+(add-to-list 'load-path (directory-file-name
+                         (or (file-name-directory #$) (car load-path))))
+
 
-;;;### (autoloads nil "ghub" "ghub.el" (24074 32336 166725 831000))
-;;; Generated autoloads from ghub.el
+;;;### (autoloads "actual autoloads are elsewhere" "buck" "../../../.emacs.d/elpa/ghub-3.2.0/buck.el"
+;;;;;;  (0 0 0 0))
+;;; Generated autoloads from ../../../.emacs.d/elpa/ghub-3.2.0/buck.el
+
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "buck" '("buck-default-host")))
+
+;;;***
+
+;;;### (autoloads nil "ghub" "../../../.emacs.d/elpa/ghub-3.2.0/ghub.el"
+;;;;;;  "ae4203e176b435384fc547c8d150b4a4")
+;;; Generated autoloads from ../../../.emacs.d/elpa/ghub-3.2.0/ghub.el
 
 (autoload 'ghub-create-token "ghub" "\
 Create, store and return a new token.
@@ -34,11 +46,55 @@ Set `url-http-real-basic-auth-storage' to nil
 and call `auth-source-forget+'.
 
 \(fn)" t nil)
+
+;;;### (autoloads "actual autoloads are elsewhere" "ghub" "../../../.emacs.d/elpa/ghub-3.2.0/ghub.el"
+;;;;;;  (0 0 0 0))
+;;; Generated autoloads from ../../../.emacs.d/elpa/ghub-3.2.0/ghub.el
+
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ghub" '("auth-source-netrc-parse-next-interesting@save-match-data" "ghub-")))
+
+;;;***
 
 ;;;***
 
-;;;### (autoloads nil nil ("buck.el" "ghub-graphql.el" "ghub-pkg.el"
-;;;;;;  "glab.el" "gogs.el" "gtea.el") (24074 32336 186724 388000))
+;;;### (autoloads "actual autoloads are elsewhere" "ghub-graphql"
+;;;;;;  "../../../.emacs.d/elpa/ghub-3.2.0/ghub-graphql.el" (0 0
+;;;;;;  0 0))
+;;; Generated autoloads from ../../../.emacs.d/elpa/ghub-3.2.0/ghub-graphql.el
+
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "ghub-graphql" '("ghub-")))
+
+;;;***
+
+;;;### (autoloads "actual autoloads are elsewhere" "glab" "../../../.emacs.d/elpa/ghub-3.2.0/glab.el"
+;;;;;;  (0 0 0 0))
+;;; Generated autoloads from ../../../.emacs.d/elpa/ghub-3.2.0/glab.el
+
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "glab" '("glab-default-host")))
+
+;;;***
+
+;;;### (autoloads "actual autoloads are elsewhere" "gogs" "../../../.emacs.d/elpa/ghub-3.2.0/gogs.el"
+;;;;;;  (0 0 0 0))
+;;; Generated autoloads from ../../../.emacs.d/elpa/ghub-3.2.0/gogs.el
+
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "gogs" '("gogs-default-host")))
+
+;;;***
+
+;;;### (autoloads "actual autoloads are elsewhere" "gtea" "../../../.emacs.d/elpa/ghub-3.2.0/gtea.el"
+;;;;;;  (0 0 0 0))
+;;; Generated autoloads from ../../../.emacs.d/elpa/ghub-3.2.0/gtea.el
+
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "gtea" '("gtea-default-host")))
+
+;;;***
+
+;;;### (autoloads nil nil ("../../../.emacs.d/elpa/ghub-3.2.0/buck.el"
+;;;;;;  "../../../.emacs.d/elpa/ghub-3.2.0/ghub-autoloads.el" "../../../.emacs.d/elpa/ghub-3.2.0/ghub-graphql.el"
+;;;;;;  "../../../.emacs.d/elpa/ghub-3.2.0/ghub-pkg.el" "../../../.emacs.d/elpa/ghub-3.2.0/ghub.el"
+;;;;;;  "../../../.emacs.d/elpa/ghub-3.2.0/glab.el" "../../../.emacs.d/elpa/ghub-3.2.0/gogs.el"
+;;;;;;  "../../../.emacs.d/elpa/ghub-3.2.0/gtea.el") (0 0 0 0))
 
 ;;;***
 
@@ -46,5 +102,6 @@ and call `auth-source-forget+'.
 ;; version-control: never
 ;; no-byte-compile: t
 ;; no-update-autoloads: t
+;; coding: utf-8
 ;; End:
 ;;; ghub-autoloads.el ends here
